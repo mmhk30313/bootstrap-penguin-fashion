@@ -51,7 +51,7 @@ body>header a{
     }
 }
 .nav-logo{
-    width: 50%;
+    width: 60%;
 }
 .nav-logo img{
     width: 100%;
@@ -64,7 +64,7 @@ body>header a{
 .extra-icon{
     position: absolute;
     top: -1.5%;
-    left: 40%;
+    left: 45%;
 }
 .my-pack{
     width: 100%;

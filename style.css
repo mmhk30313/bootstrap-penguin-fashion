@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+}
+.header{
+    background: #FFFFF4;
+}
+body>header a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    margin: 0 10px;
+}
+@media (max-width: 769px){
+    .tab{
+        justify-content: left !important;
+    }
+    .extra-icon {
+        /* position: absolute; */
+        /* top: -2%; */
+        left: 62% !important;
+    }
+    @media (max-width:426px){
+        .extra-icon {
+            left: 55% !important;
+        }
+        .small-card{
+            flex-direction: column !important;
+            justify-content: center;
+            text-align: center;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+        }
+        .icon-img img{
+            margin: 0 auto;
+            /* display: flex !important;
+            justify-content: center !important; */
+        }
+        .description{
+            margin: 0 auto !important;
+        }
+        .description small{
+            font-size: 13px !important;
+        }
+        @media (max-width: 376px){
+            .extra-icon {
+                display: none;
+            }
+        }
+    }
+}
+.nav-logo{
+    width: 50%;
+}
+.nav-logo img{
+    width: 100%;
+}
+.toggler-btn{
+    margin-top: 10px !important;
+    padding: 7px 5px 0 5px;
+    /* height: 20px; */
+}
+.extra-icon{
+    position: absolute;
+    top: -1.5%;
+    left: 40%;
+}
+.my-pack{
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: end;
+}
+.my-pack > h1{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+    color: #363958;
+}
+.my-pack .moon{
+    color: #76C27E;
+}
+.awesome-btn{
+    background-color: #2A1E59;
+    color: white;
+    font-size: 12px;
+    padding: 15px 25px;
+    width: fit-content;
+}
+.main-bag{
+    background-image: url("./images-opt3/Logo, Icon/green.png");
+    z-index: 999;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 2% 0 0 0%;
+    background-position: center center;
+    height: 45%;
+    /* padding: 5px; */
+}
+@media (max-width: 321px){
+    .main-bag{
+        height: 45%;
+        width: 110%;
+    }
+    
+}
+
+.back-pack h3{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+}
+.dollar{
+    color: #76C27E;
+}
+.card-text{
+    font-size: 12px;
+    font-weight: 600;
+}
+.small-card{
+    display: flex !important;
+    flex-direction: row;
+    box-shadow: 3px 3px 3px 3px rgb(226, 225, 225);
+}
+.small-card small{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+.icon-img img{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}

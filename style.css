@@ -7,11 +7,29 @@ body{
 .header{
     background: #FFFFF4;
 }
-body>header a{
+/*.my-navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+     background: #fff; */
+    /* box-shadow: 0px 0px 20px rgba(221, 221, 221, 0.8); 
+    transition: all linear .4s;
+    animation: nav-anime 1s;
+}*/
+body > header a{
     font-size: 14px;
     font-weight: 500;
     color: #000;
     margin: 0 10px;
+    border: 2px solid white;
+    border-radius: 25%;
+}
+body > header a:hover{
+    background: #ffffde;
+}
+.last-section-2{
+    display: none;
 }
 @media (max-width: 769px){
     .tab{
@@ -42,6 +60,12 @@ body>header a{
         }
         .description small{
             font-size: 13px !important;
+        }
+        .last-section-1{
+            display: none !important;
+        }
+        .last-section-2{
+            display: block !important;
         }
         @media (max-width: 376px){
             .extra-icon {
@@ -114,13 +138,21 @@ body>header a{
     font-weight: bold;
     font-size: 48px;
 }
+
 .dollar{
     color: #76C27E;
 }
-.card-text{
-    font-size: 12px;
-    font-weight: 600;
+.c-img{
+    transition: all 1.5s;
 }
+.c-img:hover{
+    transform: rotateY(180deg);
+}
+.card-text{
+    font-size: 15px;
+    font-weight: 400;
+}
+
 .small-card{
     display: flex !important;
     flex-direction: row;

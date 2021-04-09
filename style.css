@@ -30,10 +30,13 @@ body > header a:hover{
 }
 
 .last-section-2{
-    display: none;
+    display: none !important;
 }
 
 @media (max-width: 769px){
+    .my-pack>h1{
+        font-size: 55px !important;
+    }
     .tab{
         justify-content: left !important;
     }
@@ -101,11 +104,12 @@ body > header a:hover{
 .my-pack > h1{
     font-family: Bebas Neue;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 80px;
     line-height: 80px;
     color: #363958;
 }
+
 .my-pack .moon{
     color: #76C27E;
 }
